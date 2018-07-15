@@ -1,0 +1,15 @@
+html
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title todo
+    style
+      include style.css
+  body
+    div
+      ul
+        each val, index in state
+          li 
+            a(href=`?remove=${index}`) 
+              != val
+      form(action="" method="GET")
+        input(type="text" name="add" autofocus)
