@@ -11,7 +11,7 @@
   "author": "Didier Franc <didierfranc@me.com>",
   "description": "A node todo without front-end javascript",
   "dependencies": {
-    "pug": "^2.0.3"
+    "pug": "^3.0.1"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
